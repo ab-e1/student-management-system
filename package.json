@@ -1,0 +1,22 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "this is a studen_management syataem built with resfull api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ab-e1/student-management-system.git"
+  },
+  "author": "ab-el",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ab-e1/student-management-system/issues"
+  },
+  "homepage": "https://github.com/ab-e1/student-management-system#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
