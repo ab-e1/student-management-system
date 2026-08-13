@@ -6,7 +6,7 @@ const students = [
     course: "computer science",
     age: 21,
     gpa: 3.7,
-    status: "Active",
+    status: "active",
   },
 ];
 
