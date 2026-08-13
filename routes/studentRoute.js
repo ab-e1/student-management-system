@@ -20,7 +20,7 @@ router.post("/", validateStudentInput, createStudent);
 
 router.put("/:id", validateStudentInput, updateStudent);
 
-router.patch("/id", validateStudentInput, patchStudent);
+router.patch("/:id", patchStudent);
 
 router.delete("/:id", deleteStudent);
 
