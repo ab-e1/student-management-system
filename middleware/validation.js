@@ -15,7 +15,7 @@ const validateStudentInput = (req, res, next) => {
     typeof course !== "string" ||
     typeof age !== "number" ||
     typeof gpa !== "number" ||
-    (status !== "Active" && status !== "Inactive")
+    (status !== "active" && status !== "inactive")
   ) {
     res.status(400).json({
       valid: false,
